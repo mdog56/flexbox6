@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+#outer_container {
+    background-image: url("../images/img-berryblitz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#inner_container {
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text1 {
+    width: fit-content;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#text2 {
+    margin-bottom: 10px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+
+#heading {
+    text-align: center;
+}
+
+#mobility {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#desc {
+    text-align: center;
+}
